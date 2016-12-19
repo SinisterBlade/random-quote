@@ -1,0 +1,48 @@
+body {
+  background-color: lightskyblue;
+  transition: background-color 1s;
+  height: 100%;
+}
+
+.quoteblock {
+  border: 10px solid white;
+  background-color: white;
+  margin-top: 10%;
+  box-shadow: 2px 4px 3px rgba(0,0,0,.5);
+  padding-bottom: 15px;
+}
+
+.btn {
+  color: white;
+  transition: background-color 1s;
+  background-color: lightskyblue;
+}
+.btn:focus {
+  color: white;
+}
+.btn:hover {
+  color: white;
+}
+.btn:active {
+  color:white;
+}
+
+#author {
+  font-size: 17px;
+  color: lightskyblue;
+  transition: color 1s;
+}
+
+#message {
+  color: lightskyblue;
+  transition: color 1s;
+}
+
+#leftquote {
+  color: lightskyblue;
+  transition: color 1s;
+}
+
+.blockquote-reverse {
+  border-right: none;
+}
